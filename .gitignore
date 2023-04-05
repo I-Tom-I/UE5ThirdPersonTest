@@ -23,6 +23,10 @@
 # Any file in /RawContent dir will be managed by git lfs.
 !/RawContent/**/*
 
+# Disallow uploading of Unreal Caches
+/Intermediate/
+/Saved/
+
 # OS/platform generated files.
 
 # Windows
